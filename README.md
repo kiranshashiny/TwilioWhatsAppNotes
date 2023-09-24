@@ -20,6 +20,14 @@ Enter join selection-spell on your smartphone and you will get a message on your
 
 ### Part 2
 
+
+https://www.twilio.com/docs/usage/tutorials/how-to-set-up-your-php-development-environment
+
+You will install the composer and all other things.
+
+
+### Part 3:
+
 Sending Images from Twilio WhatsApp using Node.js
 
 https://www.twilio.com/blog/how-to-send-picture-whatsapp-using-twilio-and-javascript
