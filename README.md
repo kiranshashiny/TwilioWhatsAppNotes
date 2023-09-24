@@ -44,6 +44,45 @@ ngrok
 Go to the Ngrok referenced URL and it should say the Hello world message as well.
 
 
+Next, https://www.twilio.com/blog/how-to-send-images-on-whatsapp-using-php
+
+
+```
+touch twilioWhatsAppMessaging.php .env
+php composer.phar require twilio/sdk vlucas/phpdotenv
+```
+
+```
+<?php
+
+require_once "vendor/autoload.php";
+
+use Twilio\Rest\Client;
+
+
+$sid    = "PUT YOUR SID HERE";
+$token  = "YOUR TOKEN HERE";
+
+$twilio = new Client($sid, $token);
+
+$message = $twilio->messages
+                 ->create(
+                     "whatsapp:+919845691854",
+                     [
+                              "mediaUrl" => ["https://images.unsplash.com/photo-1431250620804-78b175d2fada?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&ixid=eyJhcHBfaWQiOjF9"],
+                              "from" => "whatsapp:+14155238886",
+                              "body" => "Snacks maybe?"
+                     ]
+                 );
+?>
+
+
+```
+
+![image](https://github.com/kiranshashiny/TwilioWhatsAppNotes/assets/14288989/7a79a38b-88c2-4cc6-a125-3d9207a5d2fd)
+
+
+
 
 ### Part 3:
 
