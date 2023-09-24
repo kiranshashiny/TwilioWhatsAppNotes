@@ -25,6 +25,25 @@ https://www.twilio.com/docs/usage/tutorials/how-to-set-up-your-php-development-e
 
 You will install the composer and all other things.
 
+run the test.php
+
+Run it as a web service.
+
+Open the browser and see that you see the Helloworld message.
+
+![image](https://github.com/kiranshashiny/TwilioWhatsAppNotes/assets/14288989/c9f94889-ee45-4fcb-aba7-92906b50d792)
+
+![image](https://github.com/kiranshashiny/TwilioWhatsAppNotes/assets/14288989/d52c4b65-6260-497c-940e-23da00e426b2)
+
+
+ngrok
+
+![image](https://github.com/kiranshashiny/TwilioWhatsAppNotes/assets/14288989/ad3eb42f-7466-484b-ab17-3e94396d5634)
+
+
+Go to the Ngrok referenced URL and it should say the Hello world message as well.
+
+
 
 ### Part 3:
 
