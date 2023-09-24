@@ -14,7 +14,23 @@ Click on Send a WhatsApp Message
 
 Enter join selection-spell on your smartphone and you will get a message on your phone.
 
+![image](https://github.com/kiranshashiny/TwilioWhatsAppNotes/assets/14288989/d8b85a46-4224-41de-a553-a17e7d04233e)
+
+
+
+### Part 2
+
+Sending Images from Twilio WhatsApp using Node.js
+
+https://www.twilio.com/blog/how-to-send-picture-whatsapp-using-twilio-and-javascript
+
 ![Uploading image.png…]()
+
+
+
+Sending Images from Twilio WhatsApp using PHP
+
+https://www.twilio.com/blog/how-to-send-images-on-whatsapp-using-php
 
 
 
